@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "dompurify": "^3.1.7",
+    "highlight.js": "^11.10.0",
+    "jsdom": "^25.0.1",
+    "marked": "^14.1.3",
+    "marked-alert": "^2.1.0",
+    "marked-base-url": "^1.1.5",
+    "marked-extended-tables": "^1.0.10",
+    "marked-footnote": "^1.2.4",
+    "marked-gfm-heading-id": "^4.1.0",
+    "marked-highlight": "^2.2.0",
+    "nuxt": "^3.13.2",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
